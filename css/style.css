@@ -1,0 +1,70 @@
+header img {
+    width: 20%;
+}
+
+.pagina {
+    max-width: 1920px;
+    background: url(../images/bg-desktop.svg) no-repeat right top;
+    background-size: cover;
+    background-color: #674bb2;
+    padding: 20px;
+    margin: 20px;
+}
+
+.conteudo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin-top: 40px;
+}
+
+.conteudo .image img {
+    width: 100%;
+}
+
+.infos .info-conteudo {
+    display: flex;
+    flex-direction: column;
+}
+
+.infos .info-conteudo h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.infos .info-conteudo p {
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+.infos .info-conteudo .register {
+    background-color: white;
+    border-radius: 25px;
+    color: black;
+    padding: 2px 20px;
+    margin-bottom: 20px;
+}
+
+.contatos {
+    display: flex;
+    margin: 30% 0px 0px 80%;
+    gap: 10px;
+}
+
+@media (max-width: 600px) {
+
+    header img {
+        width: 30%;
+    }
+
+    .conteudo {
+        display: grid;
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .contatos {
+        margin: 30px auto;
+    }
+
+}
